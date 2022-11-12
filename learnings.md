@@ -67,3 +67,14 @@ Normal flow
 
 
 Q2. Where issueTicket functionality will be implemented
+
+
+The routing mechanism controls which controller receives which requests.
+
+
+Nest Specific
+
+
+- Providers are plain JavaScript classes that are declared as providers in a module
+- most applications, the resulting architecture will employ multiple modules, each encapsulating a closely related set of capabilities.
+- Middleware is a function which is called before the route handler
