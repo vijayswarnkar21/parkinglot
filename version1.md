@@ -75,3 +75,7 @@ classDiagram
  Attendent --o AttendentType
  Payment --* Invoice
 ```
+
+Further Gate can be devided into two subclasses like - EntryGate and ExitGate
+EntryGate: DisplayBord and ExitGate: PaymentCounter but this won't change design a lot so 
+I am leaving this part
