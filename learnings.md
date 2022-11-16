@@ -78,3 +78,5 @@ Nest Specific
 - Providers are plain JavaScript classes that are declared as providers in a module
 - most applications, the resulting architecture will employ multiple modules, each encapsulating a closely related set of capabilities.
 - Middleware is a function which is called before the route handler
+
+- We do not include any business logic in models or dtos, business logic supposed to be kept in service classes

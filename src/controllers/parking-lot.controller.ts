@@ -10,7 +10,9 @@ export class ParkingLotController {
 
     @Post()
     async create(createParkingLotReqDto: CreateParkingLotReqDto) : Promise<ParkingLot>{
-        console.log(createParkingLotReqDto)
+        //1. validate createParkingLotReqDto
+        //2. create corresponding model rom req Dto
+        return this.parkingLotService.createParkingLot(createParkingLotReqDto.toParkingLot())
     }
 
     @Get()
